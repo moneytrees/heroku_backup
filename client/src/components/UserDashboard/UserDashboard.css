@@ -1,0 +1,122 @@
+.background {
+    /* background-color:  rgba(255, 255, 255, 0.879); */
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* .topCol .col-md-12 {
+    margin-top: 10%;
+} */
+
+.dashAvatar .avatar-img {
+    width: 76%;
+    padding-left:66px;
+    margin-top: -22%;
+}
+
+.topSection {
+    margin-bottom: 3%;
+    margin-top: 21%;
+}
+
+.transactionDetail {
+    margin-bottom: 3%;
+}
+.achieveCard{
+    margin-top: -4%;
+    margin-bottom: 3%;
+}
+
+.btn-info .cashFlowBtn {
+   
+    background-color: #E38949; 
+
+}
+
+.cashFlow-btn-group {
+    text-align: center;
+}
+
+.cashFlow-graph {
+    float: left;
+    width: 50%;
+    padding-left: 1rem;
+}
+
+.dbTitle h2 {
+    font-family: ‘Varela Round’, sans-serif !important;
+    font-size: 24px;
+    
+    color: #015249 !important;
+    margin: 5px 0 15px 0;
+  
+}
+
+.threeDashBtn {
+    text-align: center;
+}
+
+
+
+.testForm {
+    margin-top: 2rem;
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+.btnGroupCf{
+    text-align:center;
+
+}
+
+.loanDataLine {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.loanDataVal {
+    float: right;
+}
+
+.pieChart {
+    margin:auto;
+    margin-bottom:10%;
+ 
+}
+
+.totalSpendingCol {
+    margin-top: 10%;
+}
+
+.trans card {
+    width: 50%;
+}
+
+.CashFlow {
+    width:100%;
+    margin-top: 5%;
+}
+
+ .trophyPic{
+     width: 27%;
+ }
+
+ .itemName{
+    font-size: 18px;
+ }
+
+ .itemDesc{
+     font-size:14px;
+ }
+
+ .cashFlowBtn {
+     margin-right: 1rem;
+ }
+
+ .transDetailChart {
+     height: 440px;
+     overflow: scroll;
+ }

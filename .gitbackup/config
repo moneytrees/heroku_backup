@@ -1,0 +1,27 @@
+[submodule "client/src/test"]
+	url = git@github.com:moneytrees/frontendtesting.git
+	active = true
+[submodule "test"]
+	url = https://github.com/moneytrees/backendtesting.git
+	active = true
+[remote "origin"]
+	url = git@github.com:moneytrees/moneybags.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "AvatarDB"]
+	remote = origin
+	merge = refs/heads/AvatarDB
+[branch "cssFixesDavid"]
+	remote = origin
+	merge = refs/heads/cssFixesDavid
+[branch "homepage"]
+	remote = origin
+	merge = refs/heads/homepage
+[branch "trans-data-fix"]
+	remote = origin
+	merge = refs/heads/trans-data-fix
+[branch "develop"]
+	remote = origin
+	merge = refs/heads/develop
+[remote "heroku"]
+	url = https://git.heroku.com/mighty-cove-32128.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
