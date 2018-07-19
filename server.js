@@ -23,7 +23,7 @@ app.get('*.js', function (req, res, next) {
 });
 
 //------------ DATABASE -----------------------
-const db = require("./config/keys").mongoURI;
+const db = process.env.MONGODB || require("./config/keys").mongoURI;
 mongoose
 	.connect(
 		db,
