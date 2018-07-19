@@ -77,7 +77,8 @@
     "rest": "^2.0.0",
     "swagger-express-mw": "^0.7.0",
     "validator": "^10.4.0",
-    "webpack": "^4.16.0"
+    "webpack": "^4.16.0",
+    "yarn": "^1.7.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
