@@ -20,8 +20,7 @@ if (process.env.NODE_ENV === 'production') {
     app.use(express.static('./client/build'));
     const path = require('path');
     app.get('*', (req, res) => {
-        //res.sendFile(path.resolve('.', 'client', 'build', 'index.html'));
-        res.sendFile('index.html');
+        res.sendFile(path.resolve('app', 'client', 'build', 'index.html'));
     });
 }
 app.get('*.js', function (req, res, next) {
@@ -42,7 +41,7 @@ mongoose
 
 //----------- ROUTING ---------------------
 walker.getRoutes({ dir: './api/routes', app: app, express: express });
-const PORT = 52055;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => { console.log(`Unsecure server listening on port ${PORT}`) });
 
 module.exports = app;
