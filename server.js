@@ -40,8 +40,8 @@ mongoose
 
 //----------- ROUTING ---------------------
 walker.getRoutes({ dir: './api/routes', app: app, express: express });
-//const PORT = process.env.PORT || 3001;
-const PORT = 52055;
+const PORT = process.env.PORT || 3001;
+/*const PORT = 52055;*/
 app.listen(PORT, () => { console.log(`Unsecure server listening on port ${PORT}`) });
 
 module.exports = app;
