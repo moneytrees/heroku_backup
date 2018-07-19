@@ -282,7 +282,7 @@ module.exports = {
 							jwt.sign(
 
 								payload,
-								keys.secretOrKey,
+								process.env.JWTSECRET || keys.secretOrKey,
 								{ expiresIn: 1800 }, // Token expires in 30 minutes
 								(err, token) => {
 									res.json({
