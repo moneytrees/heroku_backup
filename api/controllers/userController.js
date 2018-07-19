@@ -1,6 +1,6 @@
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const keys = process.env.MONGODB_URI || require(__basedir + "config/keys");
+const keys = process.env.MONGODB_URI;
 const passport = require("passport");
 require("dotenv").config();
 
